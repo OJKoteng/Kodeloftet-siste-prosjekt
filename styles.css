@@ -12,6 +12,10 @@ transition: transform 0.3s ease;
 
 .button:hover {
 background-color: #f9f; 
-transform: scale(1.1);
+transform: scale(1.5);
+}
+
+ul li {
+margin-bottom: 15px;
 }
 
