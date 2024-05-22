@@ -35,3 +35,52 @@ margin-bottom: 15px;
 list-style-position: inside;
 }
 
+.animasjon1 {
+    animation-duration: 10s;
+    animation-name: slidein;
+    }
+
+@keyframes slidein {
+0% {
+margin-left: 100%;
+width: 300%;
+color: rgba(213, 13, 13, 0.479);
+}
+
+25% {
+color: aqua;
+}
+
+30% {
+color: blue;
+}
+
+40% {
+color: red;
+}
+
+50% {
+color: #f9f;
+}
+
+60% {
+color: rgb(157, 0, 188);
+}
+
+75% {
+color: rgb(2, 255, 48);
+}
+
+85% {
+color: rgb(246, 255, 0);
+}
+
+100% {
+margin-left: 0%;
+width: 100%;
+color: white;
+}
+}
+
+    
+
