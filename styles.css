@@ -106,5 +106,17 @@ animation: fadeInOut 3s infinite;
 50% {opacity: 1;}
 }
 
+.animasjon3 {
+animation: spinme 4s infinite;
+}
+
+@keyframes spinme {
+to {
+transform: rotate(360deg);
+}
+}
+
+
+
     
 
