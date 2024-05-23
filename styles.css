@@ -6,6 +6,8 @@ display: flex;
 flex-direction: column;
 text-align: center;
 justify-content: center;
+width: 100%;
+overflow: hidden;
 }
 
 h1 {
@@ -73,6 +75,10 @@ color: rgb(2, 255, 48);
 
 85% {
 color: rgb(246, 255, 0);
+}
+
+95% {
+color: orange;
 }
 
 100% {
