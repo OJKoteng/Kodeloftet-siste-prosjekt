@@ -33,6 +33,10 @@ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 color: rgb(237, 77, 77);
 }
 
+.calm {
+color: rgb(255, 251, 0);
+}
+
 
 .button {
 display: inline-block;
@@ -143,6 +147,7 @@ transform: rotate(360deg);
     animation:l4 1s infinite steps(10);
   }
   @keyframes l4 {to{transform: rotate(1turn)}}
+  
 
 
 
